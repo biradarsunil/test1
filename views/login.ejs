@@ -1,0 +1,24 @@
+
+<% var title = 'WebViewer' %>
+<% include head %>
+
+<%- message %>
+<form method="post" action="/login" style="height:100%">
+    <div class="main_container1" id="main_container1" style="height:95%;width:100%;float:left;">
+        <div class="main_content_login">
+            <div class="slt_box_B">
+                <div class="slt_box_mid_leftB_l">
+                    <div class="slt_box_mid_bgB_l">
+                        <label>Login</label>
+                    </div>
+                    <div class="login_rows"><p>User Name</p></div>
+                    <div class="login_rows"><input id="txtuser_id" type="text" name="username" class="login_input" /></div>
+                    <div class="login_rows"><p>Password</p></div>
+                    <div class="login_rows"><input id="txtuser_passwd" type="password" name="password" class="login_input"/></div>
+                    <div class="login_rows"><input name="Login" type="submit" value="Login" id="log" class="myButton_l" /></div>
+
+                    <div class="slt_box_contentB"></div>
+                </div>
+            </div>
+        </div>
+<% include foot %>

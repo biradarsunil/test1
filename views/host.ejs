@@ -1,0 +1,22 @@
+
+<% var title = 'TAS WebProfiler' %>
+<% include head2 %>
+    <div class="main_container2" id="main_container2" style = "height:95%;width:100%;float:left;">
+        <div class="header_main">
+            <div class="cs_div_validation" style="width:auto;">
+                <form method="POST" enctype="multipart/form-data">
+                    <input type="file" name="uploadFile"/>
+                    <input type="submit" value="Submit"/>
+                </form> 
+                <div id="select_Div" class="search_Divs_new" style="width:auto;">
+                </div>
+            </div>
+        </div>
+        <div class="cs_main_div" id="div_process2" style="overflow:auto;">
+            <table id="doc_master_tableA" >
+                <%- message %>   
+            </table>
+        </div>
+    </div>
+
+<% include foot %>
